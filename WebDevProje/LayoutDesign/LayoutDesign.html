@@ -1,0 +1,98 @@
+<!DOCTYPE html>     
+<html lang="en">
+<!-- Layout Design Project -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            height: 100vh;
+            background-color: gray;
+        }
+
+        .nav {
+            border: 2px solid red;
+            background-color: lightgoldenrodyellow;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 125px;
+        }
+
+        .boxes {
+            border: 2px solid brown;
+            margin: 5px;
+            height: 450px;
+            background-color: lightblue;
+
+        }
+
+        .boxes :nth-child(1) {
+            background-color: aqua;
+        }
+
+        .boxes :nth-child(2) {
+            background-color: purple;
+        }
+
+        .box {
+            border: 2px solid darkblue;
+            display: inline-block;
+            height: 401px;
+            width: 610px;
+            margin: 20px 25px 0px 206px;
+
+            text-align: center;
+        }
+
+        .rectangle {
+            border: 2px solid brown;
+            background-color: lightgreen;
+            margin: 20px 100px 0px 100px;
+            height: 220px;
+            border-radius: 100px;
+
+            padding: 27px;
+            font-size: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        footer {
+            border: 2px solid black;
+            margin-top: 46px;
+            height: 67px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Service</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="boxes">
+            <div class="box">Box1</div>
+            <div class="box">Box2</div>
+        </div>
+        <div class="rectangle">Welcome to this Sigma Web Development Express</div>
+        <footer>This is footer</footer>
+    </div>
+</body>
+
+</html>
